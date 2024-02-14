@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>YouTube Video Player with API</title>
+</head>
+
+<body>
+
+    <div id="video-box">
+        <div class="wrapper">
+            <div class="video-absolute">
+
+                <div class="wistia-video-container">
+                    <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+                        <div class="wistia_responsive_wrapper"
+                            style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                            <div style="padding:56.25% 0 0 0;position:relative;">
+                                <div style="height:100%;left:0;position:absolute;top:0;width:100%;"
+                                    class="video-wrap-wrap">
+
+
+
+                                    <iframe id="video" style="height:100%;width:100%"
+                                        src="https://www.youtube.com/embed/cba9xWne06c?rel=0&amp;controls=0&amp;showinfo=0&amp;enablejsapi=1&amp;playsinline=1&amp;mute=1"
+                                        frameborder="0" allowfullscreen allow="autoplay; ">
+                                    </iframe>
+
+
+
+                                    <div id="play-button-video" class="yt-thumbnail" style="background-size: cover;">
+                                        <div class="play-text">
+                                            CLIQUE PARA ASSISTIR
+                                        </div>
+                                        <div class="continue-text" style="display: none;">
+                                            CONTINUAR ASSISTINDO
+                                        </div>
+                                        <div class="video-paused-btn">
+                                            <img src="https://i.postimg.cc/KvjgW9Gn/video-paused-btn.png" alt="" />
+                                        </div>
+                                        <div class="play-text play-text--bottom">
+                                            CLIQUE PARA ASSISTIR
+                                        </div>
+                                        <div class="continue-text continue-text--bottom" style="display: none;">
+                                            CONTINUAR ASSISTINDO
+                                        </div>
+                                    </div>
+                                    <div class="youtube-overlay"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="//www.youtube.com/player_api"></script>
+    <script src="script.js"></script>
+    <script src="scriptMain.js"></script>
+
+</body>
+
+</html>
